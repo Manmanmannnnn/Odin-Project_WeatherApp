@@ -1,0 +1,86 @@
+:root{
+    background-color: rgb(60, 60, 60);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.weather-app-container{
+    border-radius: 50px;
+    width: 70%;
+    height: 80vh;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(105, 105, 105);
+}
+
+h1{
+    font-size: 2rem;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+#location{
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+button{
+    color: rgb(198, 227, 252);
+    padding: 5px;
+    font-size: 1.4rem;
+    border-radius: 7px;
+    background-color: rgb(105, 105, 105);
+    border: 2px solid transparent;
+}
+
+button:hover{
+    transition: 1s ease;
+    border: 2px solid rgb(82, 64, 243);
+}
+
+.output{
+    margin: auto;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    height: 80%;
+}
+
+img{
+    display: block;
+}
+
+.resultContainer{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    gap: 10px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.resultContainer:hover{
+    background-color: rgb(67, 67, 67);
+    transition: 1.5s ease;
+
+}
+
+.condition{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.time{
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
